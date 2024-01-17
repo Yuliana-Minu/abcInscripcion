@@ -1,0 +1,13 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+
+DirectoryIndex ndexabcinscrpcion.php
+RewriteEngine On
+RewriteBase /abcInscripcion/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /abcInscripcion/ndexabcinscrpcion.php [L]
+
+</IfModule>
+
+# END WordPress
